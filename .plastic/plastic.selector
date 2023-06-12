@@ -1,0 +1,4 @@
+repository "Monopoly@UninorthGroup@cloud"
+  path "/"
+    br "/main"
+    co "/main"
