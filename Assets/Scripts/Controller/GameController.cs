@@ -173,7 +173,7 @@ public class GameController : MonoBehaviour
 
                 if (turn == -1)
                 {
-
+                    selcting.text = "Seleccionando turno, Turno de Harry.";
                     definirturnoharry = dadoController.dadospos + dadoController2.dadospos;
                     cambiarDeTurno();
                     
@@ -182,7 +182,7 @@ public class GameController : MonoBehaviour
 
                 else if (turn == 0)
                 {
-                    
+                    selcting.text = "Seleccionando turno, Turno de Hermione.";
                     definirtturnohermione = dadoController.dadospos + dadoController2.dadospos;
                     cambiarDeTurno();
                     
